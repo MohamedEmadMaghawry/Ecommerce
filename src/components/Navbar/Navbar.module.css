@@ -1,0 +1,27 @@
+.container{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Links{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logout{
+  background-color: blue;
+}
+
+ .Link .title{
+  position: relative;
+}
+.Link .title:after{
+  content: "";
+  position: absolute;
+  background-color: var(--color-primary);
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}

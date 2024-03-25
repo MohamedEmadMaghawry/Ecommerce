@@ -1,0 +1,33 @@
+.post{
+flex-grow: 1;
+border: 1px solid #444;
+border-radius: 15px;
+transition: all .3s ease-in-out;}
+.post:hover{
+  background-color: black;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.image{
+  object-fit: cover ;
+  border-radius: 15px 15px 0px 0px;
+}
+.title{
+font-weight: 700;
+padding: 10px;
+}
+.text{
+  font-size: 18px;
+  color: #999;
+  padding: 10px;
+}
+.mainContainer{
+  display: grid;
+  grid-template-columns: repeat(3,32%);
+  gap: 15px;
+}
+.imageContainer{
+  position: relative;
+  height: 200px;
+}
